@@ -1,0 +1,4 @@
+solana config set --keypair ~/.config/koii/id.json
+
+
+solana config set --url https://testnet.koii.network

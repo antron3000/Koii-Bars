@@ -1,0 +1,7 @@
+solana transaction new --payer <YOUR_WALLET_ADDRESS> \
+  --program-id <YOUR_PROGRAM_ID> \
+  --keypair .config/koii/id.json \
+  --create-account <NEW_ACCOUNT_ADDRESS> \
+  --data "$DATA" \
+  --sign .config/koii/id.json
+
